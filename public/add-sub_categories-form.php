@@ -103,6 +103,7 @@ if (isset($_POST['btnAdd'])) {
                                 </div>
                             </div>
                         </div>
+                        <br>
                         <div class="row">
                                 <div class="form-group">
                                     <div class="col-md-8">
