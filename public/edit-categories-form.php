@@ -16,7 +16,7 @@ if (isset($_GET['id'])) {
 if (isset($_POST['btnEdit'])) {
 
 	$name = $db->escapeString($_POST['name']);
-	$sql = "UPDATE plan_slides SET name='$name' WHERE id = '$ID'";
+	$sql = "UPDATE categories SET name='$name' WHERE id = '$ID'";
     $db->sql($sql);
     $result = $db->getResult();
     if (!empty($result)) {
